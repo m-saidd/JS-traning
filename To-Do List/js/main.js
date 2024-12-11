@@ -29,6 +29,11 @@ list.addEventListener("click", function(element) {
 function saveTask() {
     localStorage.setItem("data", list.innerHTML);
 }
+input.addEventListener("keyup", function(ele) {
+    if(ele.keyCode === 13){
+        addTask(input.value);
+    }
+})
 
 function showTask() {
     list.innerHTML = localStorage.getItem("data");
