@@ -103,6 +103,7 @@ function resetState() {
     while(answer.firstChild) {
         answer.removeChild(answer.firstChild);
     }
+    p.style.display = "none";
 }
 
 function selectAnswer(ele) {
