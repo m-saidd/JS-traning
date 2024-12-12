@@ -39,6 +39,9 @@ body {
     background-color: #000;
     color: #fff;
 }
+.quiz .btn[disabled] {
+    pointer-events: none;
+}
 #next {
     display: none;
     width: 100px;
@@ -49,7 +52,8 @@ body {
     cursor: pointer;
 }
 .correct {
-    background-color: #9aeabc;
+        background-color: #9aeabc !important;
+    color: #000 !important;
 }
 .incorrect {
     background-color: #ff9393;
