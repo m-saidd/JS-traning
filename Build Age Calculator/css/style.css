@@ -53,3 +53,11 @@ h1 {
         font-size: 20px;
     }
 }
+#hijriDate {
+    color: #fff;
+    margin-top: 40px;
+    span {
+        color: #ffff76;
+        font-size: 20px;
+    }
+}
